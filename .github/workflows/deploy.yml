@@ -75,7 +75,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_session_token: ${{ secrets.AWS_SESSION_TOKEN }}
           region: us-east-1
-          application_name: HogwartsAPI # Tu nombre de App
-          environment_name: HogwartsAPI-env-1 # Tu nombre de Entorno
-          version_label: "banco-v-${{ github.run_number }}"
+          application_name: AbzaelAPI # Tu nombre de App
+          environment_name: AbzaelAPI-env # Tu nombre de Entorno
+          version_label: "AbzaelAPI-v-${{ github.run_number }}"
           deployment_package: docker-compose.yml
